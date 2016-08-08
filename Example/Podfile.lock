@@ -1,0 +1,16 @@
+PODS:
+  - UITransitionLabel (0.1.0)
+
+DEPENDENCIES:
+  - UITransitionLabel (from `../`)
+
+EXTERNAL SOURCES:
+  UITransitionLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UITransitionLabel: 222023db90e2adfc13f77ccda020269887588d30
+
+PODFILE CHECKSUM: 1bac43fe145a35e6dba47e8696c518bac95cce0f
+
+COCOAPODS: 1.0.1
