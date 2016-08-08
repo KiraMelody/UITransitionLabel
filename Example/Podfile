@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UITransitionLabel_Example' do
+  pod 'UITransitionLabel', :path => '../'
+
+  target 'UITransitionLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
