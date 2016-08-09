@@ -1,9 +1,9 @@
 {
   "name": "UITransitionLabel",
   "version": "0.1.0",
-  "summary": "A short description of UITransitionLabel.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/UITransitionLabel",
+  "summary": "A subclass of UILabel.",
+  "description": "value trasit from one number to another",
+  "homepage": "https://github.com/KiraMelody/UITransitionLabel",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "KiraMelody": "jessie_tjq@163.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/UITransitionLabel.git",
+    "git": "https://github.com/KiraMelody/UITransitionLabel.git",
     "tag": "0.1.0"
   },
   "platforms": {

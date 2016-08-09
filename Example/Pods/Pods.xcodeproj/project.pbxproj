@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02C5205B9D33FDDFB00F1C2027A08AB9 /* UITransitionLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E58BC70DDB2B18DC0D8DC856D40C3F55 /* UITransitionLabel-dummy.m */; };
-		140D4D550C83454DB1C83D556EE13827 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61120C35BD49FE6EE4C8595618CDC8C /* ReplaceMe.swift */; };
 		25725E9DAB9094A51C57BDCA354F7AA6 /* Pods-UITransitionLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB02AC3C23E4F7563E36B2B81F4956EF /* Pods-UITransitionLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B46F952FEE31E5D0DA6DA029D2F190D /* Pods-UITransitionLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9632B7FF491B657830ACDD5404AA5797 /* Pods-UITransitionLabel_Tests-dummy.m */; };
 		5DD6950BC580821C56CE8B1827EA4A94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		767BFFFD3CC7A4CB656B9791ED60B882 /* UITransitionLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E58BC70DDB2B18DC0D8DC856D40C3F55 /* UITransitionLabel-dummy.m */; };
+		A57BE0EBF27DA9EF4D37A44777B9E017 /* UITransitionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896E9D5FB9B9514296EF0E7B3AAEC70 /* UITransitionLabel.swift */; };
 		A76BA2374BE9413F52EEC9595890F658 /* Pods-UITransitionLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31DDDB6FBE381B54CDD16D10359D5EA2 /* Pods-UITransitionLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6C8DA23F8BBB78A73A6939EEA3293A6 /* Pods-UITransitionLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D59E1A1F0E2EA4D729A2F772DF21156 /* Pods-UITransitionLabel_Example-dummy.m */; };
 		B71722860F15C29229838F4F1CC74F7D /* UITransitionLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0E04A046A0ED2E12B868F47BF51748 /* UITransitionLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,7 +50,7 @@
 		A13377A84BEDE7A45D77585322C6BB6A /* Pods_UITransitionLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITransitionLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3ECC89E701FDE323E4E4CE89AD93E5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB02AC3C23E4F7563E36B2B81F4956EF /* Pods-UITransitionLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITransitionLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C61120C35BD49FE6EE4C8595618CDC8C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		B896E9D5FB9B9514296EF0E7B3AAEC70 /* UITransitionLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITransitionLabel.swift; sourceTree = "<group>"; };
 		C84110FCE176CC8C38F9BB064CF91AE1 /* Pods-UITransitionLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITransitionLabel_Tests-resources.sh"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D39A364B02F726B131A6852686F53216 /* Pods-UITransitionLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UITransitionLabel_Example.modulemap"; sourceTree = "<group>"; };
@@ -142,14 +142,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		57EAE4A6C5E35BBDC25DE81A40E0EA4A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C61120C35BD49FE6EE4C8595618CDC8C /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		58EA82500E74BAA0FC5A5D8C6BD01850 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,7 +191,7 @@
 		A906B0646C64870C15E0FC58892E1F88 /* UITransitionLabel */ = {
 			isa = PBXGroup;
 			children = (
-				57EAE4A6C5E35BBDC25DE81A40E0EA4A /* Classes */,
+				D5BD76E6A0694379B2D2ABB9A7B0E4F3 /* Classes */,
 			);
 			path = UITransitionLabel;
 			sourceTree = "<group>";
@@ -210,6 +202,14 @@
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5BD76E6A0694379B2D2ABB9A7B0E4F3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B896E9D5FB9B9514296EF0E7B3AAEC70 /* UITransitionLabel.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		F3D5F626A974447389D276AF9183C232 /* Products */ = {
@@ -273,7 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EC1EC3D288A5F82DA088F8AB62E3E9F /* Build configuration list for PBXNativeTarget "UITransitionLabel" */;
 			buildPhases = (
-				49B6CF6A7F3E3DED4E6BE87B467018AB /* Sources */,
+				0909A1BF89D19F4B5C11941909E9DC63 /* Sources */,
 				FCDDC1006D375F08CA5CF31A7D085632 /* Frameworks */,
 				AFAB23F1EE985E4A6AB54EB3EE70D23D /* Headers */,
 			);
@@ -333,12 +333,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		49B6CF6A7F3E3DED4E6BE87B467018AB /* Sources */ = {
+		0909A1BF89D19F4B5C11941909E9DC63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				140D4D550C83454DB1C83D556EE13827 /* ReplaceMe.swift in Sources */,
-				02C5205B9D33FDDFB00F1C2027A08AB9 /* UITransitionLabel-dummy.m in Sources */,
+				767BFFFD3CC7A4CB656B9791ED60B882 /* UITransitionLabel-dummy.m in Sources */,
+				A57BE0EBF27DA9EF4D37A44777B9E017 /* UITransitionLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

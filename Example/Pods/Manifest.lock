@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UITransitionLabel: 222023db90e2adfc13f77ccda020269887588d30
+  UITransitionLabel: 83d4e82ec37ad11d6b9ef046f4d10dbd8a242126
 
 PODFILE CHECKSUM: 1bac43fe145a35e6dba47e8696c518bac95cce0f
 
